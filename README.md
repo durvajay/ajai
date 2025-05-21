@@ -1,24 +1,30 @@
-# AI / GenAI Learning Lab 🚀
+# 🧠 AI / GenAI Learning Lab
 
-This repository is my personal learning and experimentation space for mastering Artificial Intelligence, Deep Learning, and Generative AI — from scratch.
-
-## Structure
-
-- `notebooks/`: Quick Jupyter experiments
-- `projects/`: Real use-case implementations
-- `datasets/`: Raw/custom/processed data
-- `models/`: Saved checkpoints
-- `scripts/`: Command-line runners
-- `logs/`: Logs from training/eval
+Welcome to my personal AI/GenAI learning workspace. This repository documents my journey into designing, training, and fine-tuning AI models — from scratch — using Python and PyTorch.
 
 ---
 
-## Phase 1: Foundations (Neural Networks, PyTorch)
+## 🚀 Goals
 
-- ✅ Week 1: MLP + Training from Scratch
-- ⏳ Week 2: Backprop from Scratch
-- ⏳ Week 3: Text Classification + Tokenization
+- ✅ Learn the foundations of neural networks and deep learning
+- ✅ Create custom datasets and build models tailored to specific use cases
+- ✅ Design and train small-scale LLMs and task-specific models
+- ✅ Build intuition around architecture design, tokenization, embeddings, and fine-tuning
+- ✅ Leverage the open-source ecosystem (Hugging Face, PyTorch, etc.) effectively
 
-## Coming Soon
-- Phase 2: Transformers
-- Phase 3: LLM Training + Finetuning
+---
+
+## 🗂️ Repo Structure
+
+```bash
+ai-learning/
+├── notebooks/              # Jupyter notebooks for quick experiments
+├── projects/               # Full training projects (Week 1, Week 2, etc.)
+│   └── basic_mlp_mnist/    # First project: MLP on MNIST
+├── datasets/               # Raw/custom/processed data
+├── models/                 # Saved model weights/checkpoints
+├── experiments/            # Logs, notes, experiment tracking
+├── scripts/                # CLI training/testing scripts
+├── logs/                   # Output logs
+├── requirements.txt        # Python dependencies
+└── README.md               # You're here
